@@ -40,8 +40,6 @@ def createreport(word_count, sorted_letter_list):
         letter = letter_dict['letter']
         count = letter_dict['num']
         print(f"The '{letter}' character was found {count} times")
-    print(" --- End of report --- ")
-    
-        
-        
+    print(" --- End of report --- ")        
+
 main()
